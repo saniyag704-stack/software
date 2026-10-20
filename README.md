@@ -6,7 +6,8 @@ Skill GPS helps students answer three questions: *where am I, where should I go,
 It includes a real 8-question skill test per career track, a skill-by-skill result breakdown, a
 phase-by-phase roadmap, and locally saved progress.
 
-**Live:** <https://software-4b622.web.app> (Firebase Hosting)
+**Live:** [Firebase](https://software-4b622.web.app) · [GitHub Pages](https://saniyag704-stack.github.io/software/)
+**Source:** [github.com/saniyag704-stack/software](https://github.com/saniyag704-stack/software)
 
 ---
 
@@ -235,7 +236,9 @@ Each run writes four independent records per test — no extra tooling:
 screenshot: 163 tests → 152 screenshots. Screenshots for every test are enabled
 by `screenshot: 'on'` in `playwright.config.js`.
 
-### Deployment (Firebase Hosting)
+### Deployment
+
+#### Firebase Hosting (React app)
 
 Live: **<https://software-4b622.web.app>** · Firebase project `software-4b622`
 (default site).
@@ -260,6 +263,15 @@ The canonical origin `https://software-4b622.web.app` lives in
 `react-app/src/lib/meta.js` (override with `VITE_SITE_URL` at build time) and in
 `react-app/public/robots.txt` + `sitemap.xml`. Update those three files when
 moving to a custom domain.
+
+#### GitHub Pages (static site)
+
+Live: **<https://saniyag704-stack.github.io/software/>**
+
+- Published from `main` at the repository root (Settings → Pages).
+- `.nojekyll` at the root disables Jekyll so files are served verbatim.
+- The static pages use relative links and asset paths, so the site works
+  unchanged under the `/software/` sub-path.
 
 ### Requirements & test cases
 
