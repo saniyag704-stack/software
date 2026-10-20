@@ -1,0 +1,55 @@
+﻿firebase.cmd : - Preparing the list of your Firebase projects
+At line:1 char:88
++ ... e_modules\.bin\firebase.cmd"; & $fb projects:list --json 2>&1 | Out-F ...
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (- Preparing the...rebase projects:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Γ£ö Preparing the list of your Firebase projects
+{
+  "status": "success",
+  "result": [
+    {
+      "projectId": "medihouse-7208d",
+      "projectNumber": "290296579103",
+      "displayName": "medihouse ",
+      "name": "projects/medihouse-7208d",
+      "resources": {
+        "hostingSite": "medihouse-7208d"
+      },
+      "state": "ACTIVE",
+      "labels": {
+        "firebase": "enabled"
+      },
+      "etag": "1_63dca5c2-0ffc-460c-b5e3-1e203d9eb031"
+    },
+    {
+      "projectId": "peak-saniy-perf",
+      "projectNumber": "95022690689",
+      "displayName": "Peak Performance App",
+      "name": "projects/peak-saniy-perf",
+      "resources": {
+        "hostingSite": "peak-saniy-perf"
+      },
+      "state": "ACTIVE",
+      "labels": {
+        "firebase": "enabled"
+      },
+      "etag": "1_3dda0443-316e-4b34-b962-cc6deb3c03a3"
+    },
+    {
+      "projectId": "software-4b622",
+      "projectNumber": "311952261495",
+      "displayName": "software",
+      "name": "projects/software-4b622",
+      "resources": {
+        "hostingSite": "software-4b622"
+      },
+      "state": "ACTIVE",
+      "labels": {
+        "firebase": "enabled"
+      },
+      "etag": "1_218bbb0e-db97-49f5-b405-34040be8fa0f"
+    }
+  ]
+}

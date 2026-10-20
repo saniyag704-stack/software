@@ -1,0 +1,1118 @@
+<testsuites id="" name="" tests="163" failures="0" skipped="0" errors="0" time="147.788511">
+<testsuite name="e2e\accessibility.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="12" failures="0" skipped="0" time="75.157" errors="0">
+<testcase name="Accessibility and markup hygiene › every page loads without console errors" classname="e2e\accessibility.spec.js" time="8.759">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-1a864-oads-without-console-errors-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › each page declares a language and a single top-level heading" classname="e2e\accessibility.spec.js" time="9.409">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-6c4a8--a-single-top-level-heading-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › every page exposes a title and a meta description" classname="e2e\accessibility.spec.js" time="8.746">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-3f2e3-itle-and-a-meta-description-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › contact form fields are labelled" classname="e2e\accessibility.spec.js" time="8.213">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-886b3-ct-form-fields-are-labelled-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › interactive controls carry accessible names and states" classname="e2e\accessibility.spec.js" time="8.91">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-6ed11-accessible-names-and-states-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › the quiz can be driven with the keyboard only" classname="e2e\accessibility.spec.js" time="9.036">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-db9ef-iven-with-the-keyboard-only-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › focus outlines are available for keyboard users" classname="e2e\accessibility.spec.js" time="3.672">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-024ca-vailable-for-keyboard-users-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Supported viewports › desktop shows the full navigation and a two-column roadmap" classname="e2e\accessibility.spec.js" time="4.045">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Supported-vi-87ea6-on-and-a-two-column-roadmap-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › no page scrolls sideways on a phone" classname="e2e\accessibility.spec.js" time="3.834">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-c6047-scrolls-sideways-on-a-phone-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › content stacks into a single column" classname="e2e\accessibility.spec.js" time="3.786">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-377ab-stacks-into-a-single-column-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › floating hero chips are hidden so nothing overflows" classname="e2e\accessibility.spec.js" time="3.457">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-ec646-hidden-so-nothing-overflows-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › the roadmap stacks its sidebar above the timeline" classname="e2e\accessibility.spec.js" time="3.29">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-f5fe6--sidebar-above-the-timeline-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\contact.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="12" failures="0" skipped="0" time="46.315" errors="0">
+<testcase name="Contact form › renders the form, contact details and FAQ" classname="e2e\contact.spec.js" time="3.272">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-rende-bb0e4-orm-contact-details-and-FAQ-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › submitting an empty form blocks and highlights every required field" classname="e2e\contact.spec.js" time="4.4">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-submi-a0a11-lights-every-required-field-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a malformed email is rejected" classname="e2e\contact.spec.js" time="4.075">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-malformed-email-is-rejected-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a short message is rejected" classname="e2e\contact.spec.js" time="5.712">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-short-message-is-rejected-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a valid submission confirms and resets the form" classname="e2e\contact.spec.js" time="4.948">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-val-f6079-onfirms-and-resets-the-form-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › inline errors clear as soon as the field is corrected" classname="e2e\contact.spec.js" time="4.401">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-inlin-ac77a-n-as-the-field-is-corrected-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › answers are collapsed until asked for" classname="e2e\contact.spec.js" time="3.337">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-answers-are-collapsed-until-asked-for-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › clicking a question opens it and reveals the answer" classname="e2e\contact.spec.js" time="2.955">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-clic-62837-s-it-and-reveals-the-answer-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › opening one question closes the previous one" classname="e2e\contact.spec.js" time="3.355">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-open-a4d2a-ion-closes-the-previous-one-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › clicking an open question closes it again" classname="e2e\contact.spec.js" time="3.011">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-clic-10107-en-question-closes-it-again-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact prefill › the track is preselected from your last assessment" classname="e2e\contact.spec.js" time="3.718">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-prefill-th-04aee-d-from-your-last-assessment-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact prefill › no assessment means no preselected track" classname="e2e\contact.spec.js" time="3.131">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-prefill-no-2d4e5--means-no-preselected-track-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\home.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="7" failures="0" skipped="0" time="23.027" errors="0">
+<testcase name="Home page › hero communicates the value proposition with two calls to action" classname="e2e\home.spec.js" time="3.165">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-hero-commun-8ab9e-on-with-two-calls-to-action-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the dashboard mockup shows four skill bars" classname="e2e\home.spec.js" time="3.281">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-dashboard-mockup-shows-four-skill-bars-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › trust statistics resolve to real numbers" classname="e2e\home.spec.js" time="3.23">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-trust-statistics-resolve-to-real-numbers-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › all six career tracks are listed with demand badges" classname="e2e\home.spec.js" time="3.323">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-all-six-car-992bc-e-listed-with-demand-badges-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the supporting sections are present" classname="e2e\home.spec.js" time="3.351">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-supporting-sections-are-present-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › clicking a track opens the assessment for that track" classname="e2e\home.spec.js" time="3.336">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-clicking-a--2f93b-e-assessment-for-that-track-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the hero CTA starts the assessment" classname="e2e\home.spec.js" time="3.341">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-hero-CTA-starts-the-assessment-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\navigation.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="7" failures="0" skipped="0" time="25.262" errors="0">
+<testcase name="Navigation and site chrome › the four primary pages are linked in the header" classname="e2e\navigation.spec.js" time="3.33">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--38881-es-are-linked-in-the-header-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › each nav link navigates and is marked active" classname="e2e\navigation.spec.js" time="4.233">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--58ebd-igates-and-is-marked-active-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › theme toggle flips the theme and persists across reloads" classname="e2e\navigation.spec.js" time="3.635">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--321aa-and-persists-across-reloads-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › the sticky header gains a scrolled state" classname="e2e\navigation.spec.js" time="3.263">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--760ff-ader-gains-a-scrolled-state-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › footer shows the current year and platform links" classname="e2e\navigation.spec.js" time="3.302">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--7fba3-ent-year-and-platform-links-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mobile navigation › hamburger menu opens, navigates and closes" classname="e2e\navigation.spec.js" time="4.219">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Mobile-navigati-1f9be--opens-navigates-and-closes-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mobile navigation › tapping outside closes the mobile menu" classname="e2e\navigation.spec.js" time="3.28">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Mobile-navigati-03a44-side-closes-the-mobile-menu-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\roadmap.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="14" failures="0" skipped="0" time="50.493" errors="0">
+<testcase name="Career roadmap › shows five phases with realistic detail" classname="e2e\roadmap.spec.js" time="3.078">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-sho-cdb3e-hases-with-realistic-detail-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › a ?domain= deep link selects that roadmap" classname="e2e\roadmap.spec.js" time="3.04">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-a-d-fc9a4-p-link-selects-that-roadmap-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › without an assessment it invites you to personalise" classname="e2e\roadmap.spec.js" time="5.66">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-wit-6a48b--invites-you-to-personalise-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress starts empty" classname="e2e\roadmap.spec.js" time="3.143">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-starts-empty-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › checking a milestone updates the counter and stores progress" classname="e2e\roadmap.spec.js" time="3.408">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-che-d8b0d-counter-and-stores-progress-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › completing a phase marks it done and celebrates" classname="e2e\roadmap.spec.js" time="3.328">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-com-b2ab3-arks-it-done-and-celebrates-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress survives a reload" classname="e2e\roadmap.spec.js" time="3.238">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-survives-a-reload-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › reset clears the roadmap after confirmation" classname="e2e\roadmap.spec.js" time="3.891">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-res-3f621--roadmap-after-confirmation-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › dismissing the reset dialog keeps progress" classname="e2e\roadmap.spec.js" time="3.186">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-dis-8c3e6-reset-dialog-keeps-progress-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress is tracked per track" classname="e2e\roadmap.spec.js" time="3.396">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-is-tracked-per-track-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › an advanced result unlocks fast-track phases" classname="e2e\roadmap.spec.js" time="3.315">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-789f0-t-unlocks-fast-track-phases-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › a beginner result shows no fast-track phases" classname="e2e\roadmap.spec.js" time="4.123">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-34a40--shows-no-fast-track-phases-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › an assessment for another track does not personalise this one" classname="e2e\roadmap.spec.js" time="3.792">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-12885-es-not-personalise-this-one-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap navigation › the assessment link points at the same track" classname="e2e\roadmap.spec.js" time="3.895">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-navigation-0fa4f-nk-points-at-the-same-track-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\seo.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="7" failures="0" skipped="0" time="28.264" errors="0">
+<testcase name="Metadata › every page has a unique title containing the brand" classname="e2e\seo.spec.js" time="3.942">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-ha-c50ba--title-containing-the-brand-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page has a unique, descriptive meta description" classname="e2e\seo.spec.js" time="4.29">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-ha-cfc1d-escriptive-meta-description-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page ships complete Open Graph and Twitter cards" classname="e2e\seo.spec.js" time="4.502">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-sh-a47e0-pen-Graph-and-Twitter-cards-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page declares a theme colour, an inline favicon and a responsive viewport" classname="e2e\seo.spec.js" time="4.584">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-de-bcf21-n-and-a-responsive-viewport-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › robots.txt allows crawling and points at the sitemap" classname="e2e\seo.spec.js" time="2.872">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-robots--c1e35-g-and-points-at-the-sitemap-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › sitemap.xml lists every page that actually exists" classname="e2e\seo.spec.js" time="3.96">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-sitemap-2ba2c-y-page-that-actually-exists-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › no same-origin request fails on any page" classname="e2e\seo.spec.js" time="4.114">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-no-same-origin-request-fails-on-any-page-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\skills.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="static" tests="17" failures="0" skipped="0" time="80.104" errors="0">
+<testcase name="Skill assessment › lists every career track and starts on Web Development" classname="e2e\skills.spec.js" time="3.586">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-li-460d7-d-starts-on-Web-Development-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › a ?domain= deep link preselects that track" classname="e2e\skills.spec.js" time="3.539">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-a--4738e--link-preselects-that-track-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › switching track restarts the quiz from question 1" classname="e2e\skills.spec.js" time="3.9">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-sw-6bfaf-ts-the-quiz-from-question-1-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › Next stays disabled until an option is chosen" classname="e2e\skills.spec.js" time="3.582">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-Ne-83681-d-until-an-option-is-chosen-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › answering gives immediate correct/incorrect feedback" classname="e2e\skills.spec.js" time="3.628">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-an-99903--correct-incorrect-feedback-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › a correct answer is confirmed with a toast" classname="e2e\skills.spec.js" time="3.582">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-a--f7a74-r-is-confirmed-with-a-toast-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › keyboard shortcuts answer and advance the quiz" classname="e2e\skills.spec.js" time="3.499">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-ke-7acf8-answer-and-advance-the-quiz-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › progress bar advances as questions are answered" classname="e2e\skills.spec.js" time="3.557">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-pr-47c33-s-as-questions-are-answered-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › the Back button returns to the previous question" classname="e2e\skills.spec.js" time="3.614">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-th-e9c7f-ns-to-the-previous-question-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › a zero-score run reports Beginner and stores the result" classname="e2e\skills.spec.js" time="7.152">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--afbc2-inner-and-stores-the-result-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › a perfect run reports Advanced with full skill bars" classname="e2e\skills.spec.js" time="7.617">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--84f7f-vanced-with-full-skill-bars-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › Retake test returns to the first question" classname="e2e\skills.spec.js" time="7.836">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--885da-turns-to-the-first-question-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › the result links to the matching roadmap" classname="e2e\skills.spec.js" time="7.995">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--ea418-nks-to-the-matching-roadmap-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › renders every skill from all tracks" classname="e2e\skills.spec.js" time="4.586">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-renders-every-skill-from-all-tracks-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › search narrows the list and can be cleared" classname="e2e\skills.spec.js" time="5.264">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-searc-48281-the-list-and-can-be-cleared-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › track chips filter the library" classname="e2e\skills.spec.js" time="3.607">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-track-chips-filter-the-library-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › search combines with the active filter" classname="e2e\skills.spec.js" time="3.56">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-search-combines-with-the-active-filter-static\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\accessibility.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="12" failures="0" skipped="0" time="82.017" errors="0">
+<testcase name="Accessibility and markup hygiene › every page loads without console errors" classname="e2e\accessibility.spec.js" time="8.448">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-1a864-oads-without-console-errors-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › each page declares a language and a single top-level heading" classname="e2e\accessibility.spec.js" time="8.56">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-6c4a8--a-single-top-level-heading-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › every page exposes a title and a meta description" classname="e2e\accessibility.spec.js" time="8.841">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-3f2e3-itle-and-a-meta-description-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › contact form fields are labelled" classname="e2e\accessibility.spec.js" time="8.067">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-886b3-ct-form-fields-are-labelled-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › interactive controls carry accessible names and states" classname="e2e\accessibility.spec.js" time="9.439">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-6ed11-accessible-names-and-states-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › the quiz can be driven with the keyboard only" classname="e2e\accessibility.spec.js" time="10.425">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-db9ef-iven-with-the-keyboard-only-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Accessibility and markup hygiene › focus outlines are available for keyboard users" classname="e2e\accessibility.spec.js" time="4.84">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Accessibilit-024ca-vailable-for-keyboard-users-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Supported viewports › desktop shows the full navigation and a two-column roadmap" classname="e2e\accessibility.spec.js" time="5.035">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Supported-vi-87ea6-on-and-a-two-column-roadmap-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › no page scrolls sideways on a phone" classname="e2e\accessibility.spec.js" time="4.973">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-c6047-scrolls-sideways-on-a-phone-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › content stacks into a single column" classname="e2e\accessibility.spec.js" time="4.652">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-377ab-stacks-into-a-single-column-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › floating hero chips are hidden so nothing overflows" classname="e2e\accessibility.spec.js" time="3.773">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-ec646-hidden-so-nothing-overflows-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Small screens › the roadmap stacks its sidebar above the timeline" classname="e2e\accessibility.spec.js" time="4.964">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\accessibility-Small-screen-f5fe6--sidebar-above-the-timeline-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\contact.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="12" failures="0" skipped="0" time="49.287" errors="0">
+<testcase name="Contact form › renders the form, contact details and FAQ" classname="e2e\contact.spec.js" time="3.645">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-rende-bb0e4-orm-contact-details-and-FAQ-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › submitting an empty form blocks and highlights every required field" classname="e2e\contact.spec.js" time="4.186">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-submi-a0a11-lights-every-required-field-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a malformed email is rejected" classname="e2e\contact.spec.js" time="4.474">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-malformed-email-is-rejected-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a short message is rejected" classname="e2e\contact.spec.js" time="4.213">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-short-message-is-rejected-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › a valid submission confirms and resets the form" classname="e2e\contact.spec.js" time="5.314">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-a-val-f6079-onfirms-and-resets-the-form-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact form › inline errors clear as soon as the field is corrected" classname="e2e\contact.spec.js" time="4.308">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-form-inlin-ac77a-n-as-the-field-is-corrected-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › answers are collapsed until asked for" classname="e2e\contact.spec.js" time="3.962">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-answers-are-collapsed-until-asked-for-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › clicking a question opens it and reveals the answer" classname="e2e\contact.spec.js" time="3.846">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-clic-62837-s-it-and-reveals-the-answer-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › opening one question closes the previous one" classname="e2e\contact.spec.js" time="3.681">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-open-a4d2a-ion-closes-the-previous-one-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="FAQ accordion › clicking an open question closes it again" classname="e2e\contact.spec.js" time="4.052">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-FAQ-accordion-clic-10107-en-question-closes-it-again-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact prefill › the track is preselected from your last assessment" classname="e2e\contact.spec.js" time="3.79">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-prefill-th-04aee-d-from-your-last-assessment-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Contact prefill › no assessment means no preselected track" classname="e2e\contact.spec.js" time="3.816">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\contact-Contact-prefill-no-2d4e5--means-no-preselected-track-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\home.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="7" failures="0" skipped="0" time="27.532" errors="0">
+<testcase name="Home page › hero communicates the value proposition with two calls to action" classname="e2e\home.spec.js" time="4.132">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-hero-commun-8ab9e-on-with-two-calls-to-action-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the dashboard mockup shows four skill bars" classname="e2e\home.spec.js" time="3.816">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-dashboard-mockup-shows-four-skill-bars-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › trust statistics resolve to real numbers" classname="e2e\home.spec.js" time="3.598">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-trust-statistics-resolve-to-real-numbers-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › all six career tracks are listed with demand badges" classname="e2e\home.spec.js" time="4.04">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-all-six-car-992bc-e-listed-with-demand-badges-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the supporting sections are present" classname="e2e\home.spec.js" time="4.773">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-supporting-sections-are-present-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › clicking a track opens the assessment for that track" classname="e2e\home.spec.js" time="3.645">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-clicking-a--2f93b-e-assessment-for-that-track-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Home page › the hero CTA starts the assessment" classname="e2e\home.spec.js" time="3.528">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\home-Home-page-the-hero-CTA-starts-the-assessment-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\navigation.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="7" failures="0" skipped="0" time="27.905" errors="0">
+<testcase name="Navigation and site chrome › the four primary pages are linked in the header" classname="e2e\navigation.spec.js" time="4.21">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--38881-es-are-linked-in-the-header-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › each nav link navigates and is marked active" classname="e2e\navigation.spec.js" time="4.954">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--58ebd-igates-and-is-marked-active-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › theme toggle flips the theme and persists across reloads" classname="e2e\navigation.spec.js" time="3.946">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--321aa-and-persists-across-reloads-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › the sticky header gains a scrolled state" classname="e2e\navigation.spec.js" time="3.713">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--760ff-ader-gains-a-scrolled-state-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Navigation and site chrome › footer shows the current year and platform links" classname="e2e\navigation.spec.js" time="3.462">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Navigation-and--7fba3-ent-year-and-platform-links-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mobile navigation › hamburger menu opens, navigates and closes" classname="e2e\navigation.spec.js" time="3.833">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Mobile-navigati-1f9be--opens-navigates-and-closes-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mobile navigation › tapping outside closes the mobile menu" classname="e2e\navigation.spec.js" time="3.787">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\navigation-Mobile-navigati-03a44-side-closes-the-mobile-menu-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\roadmap.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="14" failures="0" skipped="0" time="55.108" errors="0">
+<testcase name="Career roadmap › shows five phases with realistic detail" classname="e2e\roadmap.spec.js" time="3.528">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-sho-cdb3e-hases-with-realistic-detail-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › a ?domain= deep link selects that roadmap" classname="e2e\roadmap.spec.js" time="3.355">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-a-d-fc9a4-p-link-selects-that-roadmap-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › without an assessment it invites you to personalise" classname="e2e\roadmap.spec.js" time="3.303">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-wit-6a48b--invites-you-to-personalise-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress starts empty" classname="e2e\roadmap.spec.js" time="3.296">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-starts-empty-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › checking a milestone updates the counter and stores progress" classname="e2e\roadmap.spec.js" time="3.685">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-che-d8b0d-counter-and-stores-progress-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › completing a phase marks it done and celebrates" classname="e2e\roadmap.spec.js" time="3.858">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-com-b2ab3-arks-it-done-and-celebrates-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress survives a reload" classname="e2e\roadmap.spec.js" time="4.217">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-survives-a-reload-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › reset clears the roadmap after confirmation" classname="e2e\roadmap.spec.js" time="4.31">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-res-3f621--roadmap-after-confirmation-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › dismissing the reset dialog keeps progress" classname="e2e\roadmap.spec.js" time="3.979">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-dis-8c3e6-reset-dialog-keeps-progress-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Career roadmap › progress is tracked per track" classname="e2e\roadmap.spec.js" time="3.991">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Career-roadmap-progress-is-tracked-per-track-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › an advanced result unlocks fast-track phases" classname="e2e\roadmap.spec.js" time="4.21">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-789f0-t-unlocks-fast-track-phases-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › a beginner result shows no fast-track phases" classname="e2e\roadmap.spec.js" time="4.382">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-34a40--shows-no-fast-track-phases-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap personalisation › an assessment for another track does not personalise this one" classname="e2e\roadmap.spec.js" time="4.474">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-personalis-12885-es-not-personalise-this-one-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Roadmap navigation › the assessment link points at the same track" classname="e2e\roadmap.spec.js" time="4.52">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\roadmap-Roadmap-navigation-0fa4f-nk-points-at-the-same-track-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\seo.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="7" failures="0" skipped="0" time="33.423" errors="0">
+<testcase name="Metadata › every page has a unique title containing the brand" classname="e2e\seo.spec.js" time="4.931">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-ha-c50ba--title-containing-the-brand-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page has a unique, descriptive meta description" classname="e2e\seo.spec.js" time="4.974">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-ha-cfc1d-escriptive-meta-description-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page ships complete Open Graph and Twitter cards" classname="e2e\seo.spec.js" time="5.682">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-sh-a47e0-pen-Graph-and-Twitter-cards-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Metadata › every page declares a theme colour, an inline favicon and a responsive viewport" classname="e2e\seo.spec.js" time="5.512">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Metadata-every-page-de-bcf21-n-and-a-responsive-viewport-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › robots.txt allows crawling and points at the sitemap" classname="e2e\seo.spec.js" time="2.743">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-robots--c1e35-g-and-points-at-the-sitemap-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › sitemap.xml lists every page that actually exists" classname="e2e\seo.spec.js" time="4.73">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-sitemap-2ba2c-y-page-that-actually-exists-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Crawling files › no same-origin request fails on any page" classname="e2e\seo.spec.js" time="4.851">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\seo-Crawling-files-no-same-origin-request-fails-on-any-page-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e\skills.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="react" tests="17" failures="0" skipped="0" time="89.322" errors="0">
+<testcase name="Skill assessment › lists every career track and starts on Web Development" classname="e2e\skills.spec.js" time="4.123">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-li-460d7-d-starts-on-Web-Development-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › a ?domain= deep link preselects that track" classname="e2e\skills.spec.js" time="4.122">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-a--4738e--link-preselects-that-track-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › switching track restarts the quiz from question 1" classname="e2e\skills.spec.js" time="4.144">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-sw-6bfaf-ts-the-quiz-from-question-1-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › Next stays disabled until an option is chosen" classname="e2e\skills.spec.js" time="4.274">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-Ne-83681-d-until-an-option-is-chosen-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › answering gives immediate correct/incorrect feedback" classname="e2e\skills.spec.js" time="4.007">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-an-99903--correct-incorrect-feedback-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › a correct answer is confirmed with a toast" classname="e2e\skills.spec.js" time="4">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-a--f7a74-r-is-confirmed-with-a-toast-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › keyboard shortcuts answer and advance the quiz" classname="e2e\skills.spec.js" time="3.918">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-ke-7acf8-answer-and-advance-the-quiz-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › progress bar advances as questions are answered" classname="e2e\skills.spec.js" time="3.922">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-pr-47c33-s-as-questions-are-answered-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill assessment › the Back button returns to the previous question" classname="e2e\skills.spec.js" time="5.106">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-assessment-th-e9c7f-ns-to-the-previous-question-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › a zero-score run reports Beginner and stores the result" classname="e2e\skills.spec.js" time="8.219">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--afbc2-inner-and-stores-the-result-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › a perfect run reports Advanced with full skill bars" classname="e2e\skills.spec.js" time="8.141">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--84f7f-vanced-with-full-skill-bars-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › Retake test returns to the first question" classname="e2e\skills.spec.js" time="8.347">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--885da-turns-to-the-first-question-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Assessment results › the result links to the matching roadmap" classname="e2e\skills.spec.js" time="8.363">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Assessment-results--ea418-nks-to-the-matching-roadmap-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › renders every skill from all tracks" classname="e2e\skills.spec.js" time="4.538">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-renders-every-skill-from-all-tracks-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › search narrows the list and can be cleared" classname="e2e\skills.spec.js" time="5.594">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-searc-48281-the-list-and-can-be-cleared-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › track chips filter the library" classname="e2e\skills.spec.js" time="4.28">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-track-chips-filter-the-library-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Skill library › search combines with the active filter" classname="e2e\skills.spec.js" time="4.224">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\skills-Skill-library-search-combines-with-the-active-filter-react\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="unit\data.spec.js" timestamp="2026-10-20T06:26:45.554Z" hostname="unit" tests="11" failures="0" skipped="0" time="0.517" errors="0">
+<testcase name="Domain definitions › there are six career tracks with unique ids" classname="unit\data.spec.js" time="0.009">
+</testcase>
+<testcase name="Domain definitions › every domain carries the full set of fields" classname="unit\data.spec.js" time="0.074">
+</testcase>
+<testcase name="Domain definitions › every domain exposes exactly four core skills" classname="unit\data.spec.js" time="0.071">
+</testcase>
+<testcase name="Assessment questions › every domain has eight well-formed questions" classname="unit\data.spec.js" time="0.161">
+</testcase>
+<testcase name="Assessment questions › each skill is assessed by exactly two questions" classname="unit\data.spec.js" time="0.019">
+</testcase>
+<testcase name="Assessment questions › questions are unique inside a domain" classname="unit\data.spec.js" time="0.011">
+</testcase>
+<testcase name="Roadmaps › every domain has a five-phase, level-aware roadmap" classname="unit\data.spec.js" time="0.158">
+</testcase>
+<testcase name="Roadmaps › advancing phases never require a lower level than earlier ones" classname="unit\data.spec.js" time="0.006">
+</testcase>
+<testcase name="Helpers › skillLevel maps scores to the documented thresholds" classname="unit\data.spec.js" time="0.005">
+</testcase>
+<testcase name="Helpers › getDomain falls back to the first track for unknown ids" classname="unit\data.spec.js" time="0.001">
+</testcase>
+<testcase name="Helpers › Store degrades gracefully when storage is unavailable" classname="unit\data.spec.js" time="0.002">
+</testcase>
+</testsuite>
+</testsuites>

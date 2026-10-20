@@ -1,0 +1,22 @@
+{
+  "name": "skill-gps",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Skill GPS — student skill assessment & career roadmap site, with Playwright end-to-end tests",
+  "scripts": {
+    "serve:static": "http-server . -p 8777 -c-1 --silent",
+    "serve:react": "npm run dev --prefix react-app -- --host 127.0.0.1 --port 5173",
+    "test": "playwright test",
+    "test:static": "playwright test --project=static",
+    "test:react": "playwright test --project=react",
+    "test:unit": "playwright test --project=unit",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "http-server": "^14.1.1"
+  }
+}

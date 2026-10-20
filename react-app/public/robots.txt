@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://software-4b622.web.app/sitemap.xml

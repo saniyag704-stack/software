@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# React app
+react-app/node_modules/
+react-app/dist/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
